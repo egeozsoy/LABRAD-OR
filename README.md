@@ -61,7 +61,7 @@ downstream task of Role Prediction.
 
 ## Scene Graph Prediction
 
-<img src="figures/visual_abstract.jpg" alt="pipeline" width="75%"/>
+<img src="figures/visual_abstract.jpg" alt="pipeline" width="90%"/>
 
 As we built upon https://github.com/egeozsoy/4D-OR, the code is structured similarly.
 
@@ -70,7 +70,7 @@ As we built upon https://github.com/egeozsoy/4D-OR, the code is structured simil
 - To train a new visual only model which uses point cloud and images, run `python -m scene_graph_prediction.main --config visual_only_with_images.json`
 - To train labrad-or which only uses point clouds, run `python -m scene_graph_prediction.main --config labrad_or.json`. This requires the pretrained visual only model to be present.
 - To train labrad-or which uses point clouds and images, run `python -m scene_graph_prediction.main --config labrad_or_with_images.json`. This requires the pretrained visual only model to be present.
-- We provide all four pretrained models `https://github.com/egeozsoy/LABRAD-OR/releases/download/v0.1/pretrained_models.zip`. You can simply use them instead of retraining your own models, as
+- We provide all four pretrained models https://github.com/egeozsoy/LABRAD-OR/releases/download/v0.1/pretrained_models.zip. You can simply use them instead of retraining your own models, as
   described in the environment setup.
 - To evaluate either a model you trained or a pretrained model from us, change the mode to `evaluate` in the main.py and rerun using the same commands as before
   - If you want to replicate the results from the paper, you can hardcode the corresponding weight checkpoint as `checkpoint_path` in the main.py
