@@ -1,1 +1,5 @@
 
+/slurm_config.conf
+/.idea/
+/pretrained_models/
+/pretrained_models.zip

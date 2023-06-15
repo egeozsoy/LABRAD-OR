@@ -34,8 +34,6 @@ def find_checkpoint_path(log_dir: str):
 
 
 def main():
-    # TODO make sure proxy_pos_weights is provided
-    # TODO keywords to clean:, "TODO", commented out stuff
     # 4 Configs with 4 pretrained models:
     # scene_graph_prediction/scene_graph_helpers/configs/visual_only.json.              Checkpoint: 'scene_graph_prediction/scene_graph_helpers/paper_weights/visual_only.ckpt'
     # scene_graph_prediction/scene_graph_helpers/configs/visual_only_with_images.json.  Checkpoint: 'scene_graph_prediction/scene_graph_helpers/paper_weights/visual_only_with_images.ckpt'
@@ -55,7 +53,6 @@ def main():
     checkpoint_path = find_checkpoint_path(logger.log_dir)
     # (Optionally) Hardcode specific path if requested e.g.:
     # checkpoint_path = 'scene_graph_prediction/scene_graph_helpers/paper_weights/labrad-or_with_images.ckpt'
-    checkpoint_path = 'scene_graph_prediction/scene_graph_helpers/paper_weights/labrad-or_with_images.ckpt'
 
     if mode == 'train':
         train_dataset = ORDataset(config, 'train', shuffle_objs=True)
