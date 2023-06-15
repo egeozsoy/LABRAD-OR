@@ -61,7 +61,7 @@ downstream task of Role Prediction.
 
 ## Scene Graph Prediction
 
-<img src="figures/visual_abstract.jpg" alt="pipeline" width="90%"/>
+<img src="figures/visual_abstract.jpg" alt="pipeline" width="100%"/>
 
 As we built upon https://github.com/egeozsoy/4D-OR, the code is structured similarly.
 
