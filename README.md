@@ -22,9 +22,8 @@ demonstrate that integrating temporality leads to more accurate and consistent r
 @inproceedings{Özsoy2023_LABRAD_OR,
     title={LABRAD-OR: Lightweight Memory Scene Graphs for Accurate Bimodal Reasoning in Dynamic Operating Rooms},
     author={Ege Özsoy, Tobias Czempiel, Felix Holm, Chantal Pellegrini, Nassir Navab},
-    booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-    year={2023},
-    organization={Springer}
+    booktitle={Arxiv},
+    year={2023}
 }
 @inproceedings{Özsoy2022_4D_OR,
     title={4D-OR: Semantic Scene Graphs for OR Domain Modeling},
