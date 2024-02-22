@@ -1,9 +1,12 @@
 # LABRAD-OR: Lightweight Memory Scene Graphs for Accurate Bimodal Reasoning in Dynamic Operating Rooms
 <img align="right" src="figures/teaser.jpg" alt="teaser" width="30%" style="margin-left: 10px">
-Official code of the paper LABRAD-OR: Lightweight Memory Scene Graphs for Accurate Bimodal Reasoning in Dynamic Operating Rooms (https://arxiv.org/abs/2303.13293) to be published at MICCAI 2023. LABRAD-OR introduces a novel way of using temporal information for more accurate and consistent holistic OR modeling.
+Official code of the paper LABRAD-OR: Lightweight Memory Scene Graphs for Accurate Bimodal Reasoning in Dynamic Operating Rooms (https://link.springer.com/chapter/10.1007/978-3-031-43996-4_29) published at MICCAI 2023. LABRAD-OR introduces a novel way of using temporal information for more accurate and consistent holistic OR modeling.
 Specifically, we introduce memory scene graphs, where the scene graphs of previous time steps act as the temporal representation guiding the current prediction. We design an end-to-end architecture
 that intelligently fuses the temporal information of our lightweight memory scene graphs with the visual information from point clouds and images. We evaluate our method on the 4D-OR dataset and
 demonstrate that integrating temporality leads to more accurate and consistent results achieving an +5% increase and a new SOTA of 0.88 in macro F1. 
+
+PDF Paper: https://link.springer.com/content/pdf/10.1007/978-3-031-43996-4_29.pdf?pdf=inline%20link  
+PDF Book: https://link.springer.com/content/pdf/10.1007/978-3-031-43996-4.pdf  
 
 
 **Authors**: [Ege Özsoy][eo], [Tobias Czempiel][tc], [Felix Holm][fh] , [Chantal Pellegrini][cp], [Nassir Navab][nassir]
