@@ -29,6 +29,19 @@ PDF Book: https://link.springer.com/content/pdf/10.1007/978-3-031-43996-4.pdf
     year={2023},
     organization={Springer}
 }
+@Article{Özsoy2023,
+author={{\"O}zsoy, Ege
+and Czempiel, Tobias
+and {\"O}rnek, Evin P{\i}nar
+and Eck, Ulrich
+and Tombari, Federico
+and Navab, Nassir},
+title={Holistic OR domain modeling: a semantic scene graph approach},
+journal={International Journal of Computer Assisted Radiology and Surgery},
+year={2023},
+doi={10.1007/s11548-023-03022-w},
+url={https://doi.org/10.1007/s11548-023-03022-w}
+}
 @inproceedings{Özsoy2022_4D_OR,
     title={4D-OR: Semantic Scene Graphs for OR Domain Modeling},
     author={Ege Özsoy, Evin Pınar Örnek, Ulrich Eck, Tobias Czempiel, Federico Tombari, Nassir Navab},
